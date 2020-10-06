@@ -1,0 +1,51 @@
+Today Objectives
+----------------
+1.Inheritance
+2.Modules
+3.Packages
+
+Inheritance:
+--------------
+We are trying to inheriting something from parent class to child class
+
+General format is : class ChildClass(ParentClass):
+
+1.Singlelevel Iheritance
+--> There is only one parent class and one child class
+
+2.Multilevel Inheritance
+-->It Consisting of one or more parents and one or more childs
+
+3.Multiple Inheritance
+-->It Consisting of more then one parent and one child
+
+4.Hybrid Inheritance
+-->It Consisting of all types of inheritance like(Single, multible, multilevel)
+
+
+
+Modules:
+--------
+--> That is .py file
+--> It is Collection of Functions and Classes
+--> For Accessing the modules we are using import Keyword
+--> For Accessing modules we have few diff ways
+	import ModuleName
+-->to get the functions
+	ModuleName.FunName()
+-->to get the classes
+	Modulename.Classname.Funname()
+
+Packages:(Folder)
+-----------------
+--> It is Collection of Modules
+
+
+
+
+
+	
+
+
+
+
