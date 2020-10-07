@@ -33,5 +33,10 @@ ____
 - Packages
 
 ### Video Link[ Click Here](https://transcripts.gotomeeting.com/#/s/804362e5e3f4d9f0b7f0cb3d5c9387cb4ddaa554667ffb60b8765507ecab2e20)
+____
+### Day3 Objectives(07-10-20):
 
-
+- 1.Introduction to Django
+- 2.MVC & MVT
+- 3.Installation of Django
+- 4.Project Creation
