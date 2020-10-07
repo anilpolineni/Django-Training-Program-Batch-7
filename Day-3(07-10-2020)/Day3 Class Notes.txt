@@ -1,0 +1,90 @@
+Today Objectives
+-----------------
+1.Introduction to Django
+2.MVC & MVT
+3.Installation of Django
+4.Project Creation
+
+Django:
+-------
+->Django
+->Flask
+->web2py
+->bootle
+
+Django is a framwork it is using for developing web applications
+Django is free and open source framwork
+Django includes all necessary freatures by defalut
+
+Framwork:
+---------
+Framwork is collection of modules and packages
+
+Frontend:HTML,CSS,JAVASCRIPT,JQUERY,BOOTSTRAP
+
+MiddleWare:DataBase-->Sqlite3,mysql,postgesql,mangodb,oracle.
+
+Backend:Python,Java,C++,Php,.net,...etc
+
+MVC:(Model View Controller)
+----
+In this mvc we can split large program into sub parts or sub programs
+
+Model:I can write a logic for related to db connections only.
+Views: It can Handle all html files
+Controller:Main Logic for controlleing both model and views
+
+MVT:(Model View Template)
+----
+Model:I can write a logic for db connections
+View:It will work like a Controller(Main Logic)
+Template:In themplate we will store all .html files
+
+Installation:
+-------------
+->we have install python(3.6)
+->open cmd and run the below command
+	'pip install django'
+->to get the django version by using below command
+	'django-admin --version'
+
+Project Creation:
+-----------------
+-> We have to choose specific location
+-> In that location open cmd
+-> For creating the django project use below command
+	'django-admin startproject ProjectName'
+
+Folder:In this folder related to Admin part
+->__init__.py:this file tell to python consider this folder also like python file
+->asgi.py & wsgi.py : we can use this files for hosting a project
+->settings.py: we will make all project settings
+->urls.py: we will map all our project urls
+
+manage.py: 
+->this file will acts as a interface b/w the django project and cmd prompt
+->using this file we can run the server
+->i can able to open shells
+->for creating the user applications we can use this file
+
+Run the Project:
+--------------
+-> To run the Project using below command
+	'python manage.py runserver'
+-> To change the port number using below command
+	'python manage.py runserver 9999'
+
+-> To Break the server 'ctrl+c'
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
