@@ -32,4 +32,6 @@ ____
 - Modules
 - Packages
 
+### Video Link[ Click Here](https://transcripts.gotomeeting.com/#/s/804362e5e3f4d9f0b7f0cb3d5c9387cb4ddaa554667ffb60b8765507ecab2e20)
+
 
