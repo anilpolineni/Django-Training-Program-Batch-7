@@ -41,3 +41,10 @@ ____
 - 3.Installation of Django
 - 4.Project Creation
 ### Video Link[ Click Here](https://transcripts.gotomeeting.com/#/s/d8a8907730daa870640e417bd7a7aa8aa9f03d0e35d7e9790a001ade217ab19f)
+____
+### Day4 Objectives(08-10-20):
+- 1.UserApp Creation
+- 2.HttpRequest and Response
+- 3.Sublime Installation
+- 4.Url Buliding
+- 5.Dynamic Url Building
