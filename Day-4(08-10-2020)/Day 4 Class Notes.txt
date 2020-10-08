@@ -1,0 +1,50 @@
+Today Objectives
+------------------
+1.UserApp Creation
+2.HttpRequest and Response
+3.Sublime Installation
+4.Url Buliding
+
+UserApp Ceation:
+----------------
+for creating user app we have to run a command that is
+	i.e 'python manage.py startapp AppName'
+
+migrations folder: it will handle the all db connections
+admin.py:we will use to give permissions to admin to access our models(our db tables)
+apps.py:here we will see app info
+models.py: we will write all db connections
+tests.py:we  are using this file only for testing
+views.py:it is working like a controller for controlling the all navigations
+
+Note:After Creating the app we have to register our app in settings.py file
+
+HttpRequest:
+-------------
+For handling this request we have two diff methods
+-->1.GET : if user sends request from url that means the request type is GET
+-->2.POST : if the request is comming from html form then the request type is POST
+
+HttpResponse:
+--------------
+-->Based on user request it will give response
+
+
+Url Building:
+-------------------
+
+Urls.py:
+--------
+In Urls.py file for creating the url we use path function
+
+path('urlname/',function,nameofurl)
+
+
+Task
+-----
+Hello My Name .......... and my ROLL no is ........
+
+
+
+
+
