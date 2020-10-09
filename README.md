@@ -49,3 +49,11 @@ ____
 - 4.Url Buliding
 - 5.Dynamic Url Building
 ### Video Link[ Click Here](https://transcripts.gotomeeting.com/#/s/9b791f9fa85c2521751b469f7675a39c6332f38f1fa79bb49f64b597dbc27825)
+____
+### Day5 Objectives(09-10-2020)
+- 1.Django Templates
+- 2.Introduction to HTML
+  - Basic Tags
+  - Lists
+  - Tables
+  - Forms
