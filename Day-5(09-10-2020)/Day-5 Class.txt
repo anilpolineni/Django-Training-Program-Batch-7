@@ -1,0 +1,10 @@
+Today Objectives:
+-----------------
+1.Django Templates
+2.Introduction to HTML
+ Basic Tags
+ Lists
+ Tables
+ Forms
+ 
+
