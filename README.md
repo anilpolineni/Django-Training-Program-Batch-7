@@ -3,6 +3,20 @@ ____
 
 [Click Here for syllabus](https://drive.google.com/file/d/1OnBUWHxKIa0ixTU8uKrWTGCE7HB3PbGl/view)
 
+
+### New meeting Details
+django batch seven's Meeting
+
+Please join my meeting from your computer, tablet or smartphone.
+https://www.gotomeet.me/djangobatch7
+
+You can also dial in using your phone.
+United States: +1 (224) 501-3412
+
+Access Code: 777-655-085
+
+
+New to GoToMeeting? Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/777655085
 ___________
 
 #### Instructions for attendance
