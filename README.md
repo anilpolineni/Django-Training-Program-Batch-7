@@ -3,6 +3,20 @@ ____
 
 [Click Here for syllabus](https://drive.google.com/file/d/1OnBUWHxKIa0ixTU8uKrWTGCE7HB3PbGl/view)
 
+
+### New meeting Details
+django batch seven's Meeting
+
+Please join my meeting from your computer, tablet or smartphone.
+https://www.gotomeet.me/djangobatch7
+
+You can also dial in using your phone.
+United States: +1 (224) 501-3412
+
+Access Code: 777-655-085
+
+
+New to GoToMeeting? Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/777655085
 ___________
 
 #### Instructions for attendance
@@ -49,3 +63,12 @@ ____
 - 4.Url Buliding
 - 5.Dynamic Url Building
 ### Video Link[ Click Here](https://transcripts.gotomeeting.com/#/s/9b791f9fa85c2521751b469f7675a39c6332f38f1fa79bb49f64b597dbc27825)
+____
+### Day5 Objectives(09-10-2020)
+- 1.Django Templates
+- 2.Introduction to HTML
+  - Basic Tags
+  - Lists
+  - Tables
+  - Forms
+### Day 5 Link[Click Here](https://transcripts.gotomeeting.com/#/s/85bbd9ca2ecd4b3707777e384a6a4c0c122100fa9351fca1b53a94f24a771473)
