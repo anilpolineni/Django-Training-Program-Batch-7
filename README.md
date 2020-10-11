@@ -77,5 +77,5 @@ ____
 - DTL Django Template Language
 - Data Rendering from Templates to views
 - Views to Templates
-
+### Day 6 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/9b0575fc28b44d1ee9ad0e531c607d3da107db27ffbd04bdfb54069903f741a0)
 
