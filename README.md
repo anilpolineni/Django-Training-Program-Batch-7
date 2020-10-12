@@ -96,3 +96,4 @@ ____
 - External CSS
 
 - Static File Handling
+### Day 7 Video Link[Click Here] (https://transcripts.gotomeeting.com/#/s/2d9dbdab0e6b49d48c62d94ddc692e8d82fba9b060191bfc783ba1d4f9e4cd4a)
