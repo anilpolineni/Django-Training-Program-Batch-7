@@ -78,4 +78,21 @@ ____
 - Data Rendering from Templates to views
 - Views to Templates
 ### Day 6 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/9b0575fc28b44d1ee9ad0e531c607d3da107db27ffbd04bdfb54069903f741a0)
+____
+### Day 7 Objectives(12-10-2020)
 
+- Introduction to CSS
+  - 1.Element Selector
+  - 2.Id Selector
+  - 3.Class Selector
+  - 4.Univarsal Selector
+  - 5.Group Selector
+
+
+- Inline CSS
+
+- Internal CSS
+
+- External CSS
+
+- Static File Handling
