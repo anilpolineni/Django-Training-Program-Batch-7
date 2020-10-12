@@ -1,14 +1,51 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
 	<title>Data </title>
+	<link rel="stylesheet" type="text/css" 
+	href="{% static 'css/style.css' %}">
+	
+	<!-- <style>
+		/*h3 {
+			color: red;
+			margin-left: 100px;
+			font-size: 30px;
+		}
+		#email{
+			color: green;
+			font-size: 20px;
+		}
+		.branch{
+			font-style: bold;
+			color: yellow;
+		}*/
+		/**{
+			text-align: center;
+			color: blue;
+			font-size: 30px;
+			background-color: yellow;
+		}*/
+		/*h2,h3,p,h4{
+			color: red;
+			font-size: 20px;
+			font-style: bold;
+			background: green;
+			text-align: center;
+
+		}*/
+
+
+	</style> -->
+	
 </head>
 <body>
 	<h2>User Details</h2>
 	<h3>Name:{{ name }}</h3>
-	<h3>Email:{{ email }}</h3>
-	<h3>Branch:{{ branch }}</h3>
+	<h3 id='email'>Email:{{ email }}</h3>
+	<h3 class="branch">Branch:{{ branch }}</h3>
 	<h3>Mobile:{{ mobile }}</h3>
-	<h3>Gender:{{ gender }}</h3>
+	<h4>Gender:{{ gender }}</h4>
+	<p>This Program is Offerd by Gov of AP</p>
 </body>
 </html>

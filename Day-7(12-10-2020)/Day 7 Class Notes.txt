@@ -1,0 +1,72 @@
+Today Objectives:
+------------------
+1.CSS
+2.Static Files Handleing
+
+CSS:
+-----
+CSS means cascading style sheets
+which is used to apply the styles to web pages
+
+We have three diff ways to apply the css in html pages
+1.Inline CSS
+2.Internal CSS
+3.External CSS
+
+
+CSS Synatx:
+-----------
+Css rule set contains a selector and declaration block
+
+Selector       DeclarationBlock
+	
+
+We have several types of Selectors:
+1.Element Selector 
+2.Id Selector
+3.Class Selector
+4.Universal Selector
+5.Group Selector
+
+In Declaration block contains Property and Value
+
+h3 {color:blue; font-size:12px;}
+
+Task1:
+-------
+1.Create one login page
+->Username
+->Password
+
+uname='srinivas' 
+pwd='apssdc@123'
+
+Task2:
+------
+localhost:8000/table/10
+
+10x1=10
+10x2=20
+10x3=30
+.
+.
+.
+.
+.
+.
+10x20=200
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

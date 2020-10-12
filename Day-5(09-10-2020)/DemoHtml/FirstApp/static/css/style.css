@@ -1,0 +1,29 @@
+h3 {
+	color: red;
+	margin-left: 100px;
+	font-size: 30px;
+	}
+#email{
+	color: green;
+	font-size: 20px;
+	}
+.branch{
+	font-style: bold;
+	color: yellow;
+	}
+
+
+
+h2 {
+	color: #3B7510;
+	border: 1px outset #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 3px 3px 3px #F23E12;
+	border-radius: 100px;
+	text-shadow: 2px 2px 2px blue;
+	height: 50px;
+	background: #0C86EC;
+	font-style: bold;
+	font-size: 30px; 
+}

@@ -1,9 +1,14 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
 	<title>Registration Page</title>
+	<link rel="stylesheet" type="text/css" 
+	href="{% static 'css/style.css' %}">
+
 </head>
 <body>
+	<img src="/static/images/apssdc.png" height="20%" width="100%">
 	<center>
 	<h2>Registration Page</h2>
 	<form action="{% url 'register' %}" method="POST">
