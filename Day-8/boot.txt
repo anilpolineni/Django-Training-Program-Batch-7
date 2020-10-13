@@ -1,0 +1,77 @@
+GoodMorning To All
+
+ToDayAgenda
+
+Bootstrap
+---------
+Introduction To Bootstrap
+Bootstrap is a powerful frontens-fraework for sater and easier
+using webdevelopment
+. it includes html and css based design templates or 
+creating common user
+. interface components like forms,buttons,navigation,dropdown,alerts,modals
+ tabs,accordins,carosul,tooltips,badges and so on
+.bootstrap orginally developed twiter persons
+ martotto,jacobthornton developed 2010 relased at 2011
+
+uses of bootstrap
+. mobile first approach
+. browser support
+. easy to get started 
+. responsive design
+two ways we are using bootstrap
+1.offline
+ getbootstrap.com
+
+2.online
+grid system
+
+mt
+ml
+mr
+
+colors
+
+primary
+info
+danger
+dark
+success
+default
+warning
+secondary
+
+
+forms diffrences b/w html for and boorstrap form
+navbar
+buttons
+alert
+
+
+
+
+firstapp
+urls
+home
+about
+login
+register
+
+secondapp
+urls
+home
+about
+login
+register
+home
+about
+showdata
+admin
+
+
+btn-lg
+btn-sm
+btn-md
+btn-xl
+
+localhost:8000
