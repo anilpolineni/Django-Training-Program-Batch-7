@@ -103,3 +103,11 @@ ____
 ### Day 8 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/946b5501a967769068ebdc7d7814893b1a6651e8e0182ce9264a937108281865)
 ____
 
+### Day 9 Objectives(14-10-2020)
+-Models creation
+-admin roles
+-makemigrations
+-migrate
+-SuperuserCreation
+### Day 9 Video Link[Click Here](present video not available due to some technical issues)
+____
