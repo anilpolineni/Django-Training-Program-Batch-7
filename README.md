@@ -105,9 +105,13 @@ ____
 
 ### Day 9 Objectives(14-10-2020)
 -Models creation
+
 -admin roles
+
 -makemigrations
+
 -migrate
+
 -SuperuserCreation
 ### Day 9 Video Link[Click Here](present video not available due to some technical issues)
 ____
