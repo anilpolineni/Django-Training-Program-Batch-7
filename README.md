@@ -115,3 +115,10 @@ ____
 - SuperuserCreation
 ### Day 9 Video Link[Click Here](present video not available due to some technical issues)
 ____
+
+### Day 10 Objectives(15-10-2020)
+
+- ORM-Object Relational Mapping
+
+
+
