@@ -1,0 +1,103 @@
+Today Objectives:
+------------------
+-> ORM
+
+--> For Storeing we will wirte sql Queries
+
+CRUD Operations
+
+1.ORM(Object Relational Mapping):
+--> By using objects we can access stored data in Database
+	-> How to Insert Data
+	-> How to Access Stored Data
+	-> How to Update existing Data
+	-> How to Delete data
+
+--> Data Inserting:
+	To Insert the Data we have 2 diff methods:
+	1st Method: Using save()
+
+	obj=Employee(firstname='value',lastname='value',age='value')
+	obj.save()
+	
+	2nd Method:Here I am Using create()
+	
+	obj=Employee.objects.create(firstname='value',lastname='value',
+	age='value')
+
+Procedure:
+-> Open cmd in our project location
+-> In that location i want to open python shell
+-> To open Python Shell by using below command
+	'python manage.py shell'
+-> Run This below command to connect with DB Tables
+	'from FirstApp.models import Employee'
+
+Retrive the data:
+-----------------
+Basic Procedure--->select * from table_name;
+
+In ORM:
+--> Employee.objects.all()
+
+To Access specific Field
+--> Employee.objects.values('FirstName')
+using this values method you can get the data in dict format
+
+To get the data in list format:
+--> Employee.objects.values_list('LastName')
+
+I want to get the specific Person Details
+we have 2 diff functions those are 
+-->1.get() : You can't access multiple records
+	data=Tablename.objects.get(pk=1)
+-->2.filter() : It returns Multible Records
+	data=Tablename.objects.filter(pk=1)
+I want to return last Record:
+	data=Tablename.objects.last()
+
+I want to return First Record:
+	data=Tablename.objects.first()
+
+To Get the data in Ascending order
+	data=Tablename.objects.order_by('firstname')
+
+To Get the data in Decending Order
+	data=Tablename.objects.order_by('-firstname')
+
+
+Update:
+-------
+To Update the Specific Fields in all records
+	data=Tablename.objects.all().update(Email='apssdc@gmail.com')
+
+To Update the Specific Person Details
+You need get the sepcific person details
+	data=Tableanme.objects.get(FirstName='Anil')
+Then we will Update
+	data.Email='Anil.p@apssdc.in'
+Then we need to Save by using save()
+	data.save()
+
+Delete:
+--------
+To Delete all records from a table
+	data=Tablename.objects.all().delete()
+i want to delete specific person data
+you need to get the specific person details
+	data=Tablename.objects.get(FirstName='Anil') 
+call delete function
+	data.delete()
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
