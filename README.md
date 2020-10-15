@@ -78,4 +78,40 @@ ____
 - Data Rendering from Templates to views
 - Views to Templates
 ### Day 6 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/9b0575fc28b44d1ee9ad0e531c607d3da107db27ffbd04bdfb54069903f741a0)
+____
+### Day 7 Objectives(12-10-2020)
 
+- Introduction to CSS
+  - 1.Element Selector
+  - 2.Id Selector
+  - 3.Class Selector
+  - 4.Univarsal Selector
+  - 5.Group Selector
+
+
+- Inline CSS
+
+- Internal CSS
+
+- External CSS
+
+- Static File Handling
+### Day 7 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/2d9dbdab0e6b49d48c62d94ddc692e8d82fba9b060191bfc783ba1d4f9e4cd4a)
+____
+### Day 8 Objectives(13-10-2020)
+- Bootstrap File Handling
+### Day 8 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/946b5501a967769068ebdc7d7814893b1a6651e8e0182ce9264a937108281865)
+____
+
+### Day 9 Objectives(14-10-2020)
+- Models creation
+
+- admin roles
+
+- makemigrations
+
+- migrate
+
+- SuperuserCreation
+### Day 9 Video Link[Click Here](present video not available due to some technical issues)
+____
