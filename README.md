@@ -121,4 +121,4 @@ ____
 - ORM-Object Relational Mapping
 
 
-
+### Day 9 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/7240552c3a3086df5b9db5baef7a12641ac13a9a9915e5a0937c61aea379ffa1)
