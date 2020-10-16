@@ -123,7 +123,7 @@ ____
 
 ### Day 10 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/7240552c3a3086df5b9db5baef7a12641ac13a9a9915e5a0937c61aea379ffa1)
 
-. CRUD Operations
+- CRUD Operations
 
 
 ### Day 10 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/f84bb480be48249b9562336c61ddd3fcb2cc8d197382758c315b0a4d5861f314)
