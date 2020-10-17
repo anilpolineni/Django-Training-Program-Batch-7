@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Show Data</title>
+</head>
+<body>
+	<center>
+		<h2>Registered Data</h2>
+	<table border="1px">
+		<thead>
+			<th>SNO</th>
+			<th>Movie Name</th>
+			<th>Hero Name</th>
+			<th>Heroin Name</th>
+			<th>Director Name</th>
+			<th>Release Date</th>
+		</thead>
+		<tbody>
+			{% for i in data %}
+			<tr>
+				<td>{{ i.id }}</td>
+				<td>{{ i.moviename }}</td>
+				<td>{{ i.heroname }}</td>
+				<td>{{ i.heroinname }}</td>
+				<td>{{ i.director }}</td>
+				<td>{{ i.reldate }}</td>
+
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	</center>
+	
+	
+	
+</body>
+</html>

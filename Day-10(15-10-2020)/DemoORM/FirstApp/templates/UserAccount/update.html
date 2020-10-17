@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+	<title>Update Details</title>
+</head>
+<body>
+	<form action="{% url 'update' data.id %}">
+		
+	{{ csrf_token }}
+	{% form.as_p%}
+	</form>
+
+</body>
+</html>

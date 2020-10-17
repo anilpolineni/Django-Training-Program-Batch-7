@@ -1,4 +1,4 @@
-"""DemoORM URL Configuration
+"""Movies URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -19,8 +19,7 @@ from FirstApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', views.login, name='login'),
-    path('show/', views.show, name='show'),
-    path('update/<int:id>/',views.update, name='update'),
-    path('delete/<int:id>/', views.delete, name='delete'),
+    path('register/',views.register,name='register'),
+    path('showdata/',views.showdata,name='showdata'),
+
 ]

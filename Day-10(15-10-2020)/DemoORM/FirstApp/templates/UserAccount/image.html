@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+	<title>	</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+</head>
+<body>
+	<div class="card">
+		<div class="card-header bg-info text-white" style="justify-content: center;">Full Details
+			
+		</div>
+		<div class="card-body">
+			<form>	
+{% for i in data %}
+<h1>{{ i.fullname }}</h1>
+<h1>{{ i.mailid }}</h1>
+<img src="/static/images/{{i.image}}" width="350px" height="350px">
+
+{% endfor %}
+</form>
+
+		</div>
+
+</body>
+</html>
