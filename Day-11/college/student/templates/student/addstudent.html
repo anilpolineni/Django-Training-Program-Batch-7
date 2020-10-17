@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+  <title>::Home::</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">MyProject</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'addstudent'%}">AddStudent</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'showdata' %}">Showdata</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+  </ul>
+</nav>
+<div class="container col-md-4 mt-3 card card-body bg-primary">
+  <form action="#" method="POST">
+    {% csrf_token %}
+    <h1>StudentRegistrationForm</h1>
+
+    <div class="form-group">
+      <label for="roll">RollNO*</label>
+      <input type="text" name="rollno" class="form-control" id="roll" placeholder="Enter RollNO" required>
+    </div>
+
+    <div class="form-group">
+      <label for="name">Name*</label>
+      <input type="text" name="name" class="form-control" id="roll" placeholder="Enter Name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email*</label>
+      <input type="email" name="emailid" class="form-control" id="email" placeholder="Enter Email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="dept">Department*</label>
+      <input type="text" name="dept" class="form-control" id="dept" placeholder="Enter Dept" required>
+    </div>
+
+    <div class="form-group">
+      <label for="age">Age*</label>
+      <input type="integer" name="age" class="form-control" id="age" placeholder="Enter Age" required>
+    </div>
+
+    <div class="form-group">
+      <label for="mob">MobileNO*</label>
+      <input type="text" name="mobileno" class="form-control" id="mob" placeholder="Enter MobileNO" required>
+    </div>
+
+    <div class="text-center">
+      <input type="submit" value="Add" class="btn btn-outline-danger btn-lg mb-3">
+    </div>
+  </form>
+</div>
+</body>
+</html>
