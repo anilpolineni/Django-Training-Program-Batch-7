@@ -134,3 +134,10 @@ ______
 - CRUD operations using forms
 
 ### Day 12 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/b50da75fcc2dd5e6d7daf194f26492f29899c1561d36f6d442b645bb8a64c573)
+
+### Day 13 Objectives(19-10-2020)
+- Templates Blocks
+- UI Design
+- UserRegistration
+
+### Day 13 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/153bae34e92e70352286077a1b69f144fd03bf6f1903c1b84f81b3531dd5f299)
