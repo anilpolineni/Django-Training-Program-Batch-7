@@ -1,0 +1,66 @@
+Models
+Django admin roles
+migrate
+migrations
+
+Model is a class that represents table or collection in our db
+and where evry attribue o the class is field of the table
+ex: ourapp/models.py
+
+django default tables
+
+class Student(models.Model):
+	name=models.CharField(max_length=20)
+	rollno=models.CharField(max_length=10)
+	mobileno=models.CharField(max_length=12)
+	age=models.IntegerField()
+	dob=models.DateField()
+	address=models.TextField()
+
+blank=True
+
+
+
+makemigrations
+
+python manage.py makemigrations
+
+inerfacefile 001 file 
+
+migrate
+
+python manage.py migate
+
+id  name    rollno dept mobileno  age
+
+
+
+Django admin roles
+1.createsuperuser
+ a.username
+ b.password
+ c. re-enterpassword
+ d. successfully created superuser
+
+python manage.py createsuperuser
+python manage.py runserver
+
+
+admin.py
+
+from django.models import Student
+
+admin.site.register(Student)
+
+tunder methods
+
+def __str__(self):
+ return self.rollno
+
+no need to check chiper
+
+orm quries
+
+
+
+ 

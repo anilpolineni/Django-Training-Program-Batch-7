@@ -1,0 +1,40 @@
+GoodMorning To All
+
+To Day Agenda
+-------------
+1.TemplatesBlocks
+    {% extends 'appname/filename.html'%}
+    {% include 'appname/filename.html' %}
+    {% block content %}
+    {% endblock %}
+2.Ul-Part
+
+3.User Registration
+
+Django will provide existing table
+ 1.auth_user,  userprofile
+   first_name,  image,
+   last_name,   gender
+   email,       mobileno
+   username,    address
+   image,       
+   password
+
+Relationships
+ onetoone,ontomany,manytoone,manytomany
+4.FileHandling
+models.py 
+
+image=ImageField
+
+pip insatll pillow
+
+documents=FileField
+
+from django.contrib.auth.models import User
+from PIL import Image
+
+user=models.OneToOneField(User,on_delete=models.CASCADE)
+image=models.ImageField(upload_to="pics/")
+
+accounts/static/images/pics/image
