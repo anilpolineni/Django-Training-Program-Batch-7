@@ -1,0 +1,83 @@
+GoodMorning To All
+
+To Day Agenda
+-------------
+1.TemplatesBlocks
+    {% extends 'appname/filename.html'%}
+    {% include 'appname/filename.html' %}
+    {% block content %}
+    {% endblock %}
+2.Ul-Part
+
+3.User Registration
+
+Django will provide existing table
+ 1.auth_user,  userprofile
+   first_name,  image,
+   last_name,   gender
+   email,       mobileno
+   username,    address
+   image,       
+   password
+
+
+Relationships
+ onetoone,ontomany,manytoone,manytomany
+4.FileHandling
+models.py 
+
+image=ImageField
+
+pip insatll pillow
+
+documents=FileField
+
+from django.contrib.auth.models import User
+from PIL import Image
+
+user=models.OneToOneField(User,on_delete=models.CASCADE)
+image=models.ImageField(upload_to="pics/")
+
+accounts/static/images/pics/image
+
+5.MediaFiles handling
+
+in our project  settings.py in last mention 
+media_root and media_url
+
+Media_Root=os.path.join(BASE_DIR,'appname/static/images')
+Media_Root=os.path.join(BASE_DIR,'media')
+
+Media_url="/images/"
+
+Media_url="/media/"
+
+6.User Registration
+
+7.Message Generation
+
+8.MailSending
+
+
+EMAIL_USE_TLS=True
+EMAIL_HOST="smtp.gmail.com"
+EMAIL_PORT=587
+EMAIL_HOST_USER="yourmail@gmail.com"
+EMAIL_HOST_PASSWORD="*******"
+
+
+from usermanagement import settings
+
+from django.core.mail import send_mail
+
+sub  user logins
+body  username & password
+sender EMAIL_HOST_USER
+reciver current user rgistring
+
+
+
+
+
+
+
