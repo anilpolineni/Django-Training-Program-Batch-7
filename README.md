@@ -141,3 +141,12 @@ ______
 - UserRegistration
 
 ### Day 13 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/153bae34e92e70352286077a1b69f144fd03bf6f1903c1b84f81b3531dd5f299)
+
+
+### Day 14 Objectives(20-10-2020)
+- UserRegistration
+- FileUploading
+- Messagegeneration
+- MailSending
+
+### Day 14 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/cbf19c4daa6181ae9b31f6b00e94471050c10a8d09429d7547259315ee23653d)
