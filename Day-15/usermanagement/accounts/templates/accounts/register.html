@@ -1,0 +1,41 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+<div class="container mt-3 bg-warning col-md-6 card card-boby">
+	<h1 class="text-info text-center">RegistrationForm</h1>
+	<form action="" method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div class="form-row">
+			<div class="form-group col-md-4">
+				<label for="fname">First_Name*</label>
+				<input type="text" name="fname" class="form-control" placeholder="enter First_Name" id="fname" required>
+			</div>
+			<div class="form-group col-md-4">
+				<label for="lname">Last_Name*</label>
+				<input type="text" name="lname" class="form-control" placeholder="enter Last_Name" id="lname" required>
+			</div>
+			<div class="form-group col-md-4">
+				<label for="uname">UserName*</label>
+				<input type="text" name="uname" class="form-control" placeholder="enter UserName" id="uname" required>
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="form-group col-md-4">
+				<label for="em">Email*</label>
+				<input type="email" name="emailid" class="form-control" placeholder="enter EmailId" id="em" required>
+			</div>
+			<div class="form-group col-md-4">
+				<label for="img">Image*</label>
+				<input type="file" name="image" class="form-control" placeholder="ChooseImage.." id="img" required>
+			</div>
+			<div class="form-group col-md-4">
+				<label for="pwd">Password*</label>
+				<input type="password" name="pswd" class="form-control" placeholder="enter ****" id="pwd" required>
+			</div>
+		</div>
+		<div class="text-center">
+			<input type="submit" value="Register" class="btn btn-outline-primary btn-lg mb-3">
+		</div>
+	</form>
+</div>
+{% endblock %}

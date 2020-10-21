@@ -1,0 +1,16 @@
+{% extends 'accounts/base.html'%}
+{% block title%}Profile{% endblock title%}
+{% block content %}
+
+
+<h1>Welcome Profile </h1>
+
+Image=<img src="{{pro.image.url}}">
+FullName={{user.first_name}}{{user.last_name}}
+UserName={{user.username}}
+Email={{user.email}}
+Dob={{pro.dob}}
+MobileNo={{pro.mobileno}}
+Address={{pro.address}}
+
+{% endblock %}
