@@ -159,9 +159,6 @@ ______
 
 ### Day 15Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/daec04c030fec1e80979ca6500abff10bc1b658152d05f7d15a6b9f3fc66cd71)
 
-### Day 14 Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/cbf19c4daa6181ae9b31f6b00e94471050c10a8d09429d7547259315ee23653d)
-
-
 ### Day 16 Objectives(22-10-2020)
 - User Profile
 - Update Profile
