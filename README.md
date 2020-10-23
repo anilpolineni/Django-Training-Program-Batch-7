@@ -165,4 +165,9 @@ ______
 
 ### Day 16Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/79f524873c5c046055d4b780408a109228a8212587ca78e054b9abac82e184ee)
 
+### Day 17 Objectives(23-10-2020)
+-DataBase With Mysql Connection
+- ModelForn using UserCreation Form
+
+### Day 17Video Link[Click Here](https://transcripts.gotomeeting.com/#/s/9ad586f742f70e65996c2e1fe4dca6a542d70defacb20f749ba66bdb6da27b5c)
 
